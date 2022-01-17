@@ -1,0 +1,118 @@
+.profileDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h2{
+  margin-top: 40px;
+}
+.card{
+  padding: 0;
+  margin: 40px auto;
+  position: relative;
+  border: 1px solid #f2f2f2;
+  border-radius: 8px;
+}
+hr{
+  border: 1px solid #f2f2f2;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  border-bottom: 1px solid #f2f2f2;
+}
+.edit-btn{
+  background: none;
+  color: #a5a4a4;
+  border: 1px solid #a5a4a4;
+  border-radius: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+.d-flexx{
+  display: flex;
+  padding: 16px;
+  border-bottom: 1px solid #f2f2f2;
+}
+h5{
+  color: #a5a4a4;
+  width: 100px;
+}
+
+/* .flexProfile{
+ background-color:#f2f2f2;
+  display: flex;
+  justify-content:center;
+  height: 85vh;
+}
+
+td{
+  padding: 2em 0 !important;
+  margin: 0;
+}
+
+tbody{
+  border: 1px solid black
+}
+
+.tableLabel {
+  position: relative;
+  right: 10em
+  
+}
+
+.profileText{
+  display: flex;
+  justify-content:space-between;
+  background-color:#f2f2f2;
+}
+
+.editBtn {
+  background-color: #dad3d3;
+  position: relative;
+  right: 3em;
+  color: rgb(59, 29, 9);
+  margin-bottom: 1em;
+}
+
+
+.smallerScreen {
+  display: none !important;
+} */
+
+@media screen and (max-width: 500px) {
+  .card{
+    width: 90%;
+    height: auto;
+  }
+/* 
+   .profileDiv{
+     width: 100%;
+     margin-left: 0.1em;
+     background-color:#f2f2f2;
+     padding: 0 3em;
+     margin-top: 2em;
+   }
+
+   .tableLabel {
+    position: relative;
+    right: 3em
+    
+  }
+
+  td{
+    padding: 2.5em 0 !important;
+    margin: 0;
+  }
+
+  .profileText h2{
+    margin-top: 2em;
+  }
+
+  .editBtn {
+    position: relative;
+    right: 6em;
+  } */
+}

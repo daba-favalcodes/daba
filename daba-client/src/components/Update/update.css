@@ -1,0 +1,50 @@
+.back-btn{
+    margin-top: 20px;
+    background: transparent;
+    border: none;
+    color: rgb(6, 130, 231);
+    cursor: pointer;
+    margin-left: 0;
+}
+.back{
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+}
+.update-card{
+    width: 50%;
+    height: auto;
+    padding-bottom: 40px;
+}
+.update-card .header{
+    border-bottom: 0;
+}
+.update-card .d-flexx{
+    border-bottom: 0;
+    align-items: center;
+}
+.update-card .d-flexx .right{
+    margin-left: 30px;
+}
+.profile-img{
+    width: 80px;
+    height: 80px;
+}
+.update-form{
+    width: 80%;
+    margin-left: 20px;
+}
+.save-btn{
+    background: rgb(4, 114, 218);
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+@media (max-width: 500px){
+    .back{
+        width: 90%;
+    }
+}

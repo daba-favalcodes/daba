@@ -1,0 +1,32 @@
+body {
+  overflow-x: hidden;
+}
+
+.logout{
+  padding: 1em
+}
+
+.logDiv{
+  position: relative;
+  right: 2em;
+  top: 1em;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerLogo{
+    display: flex;
+    justify-content: space-evenly;
+    padding:0 1em;
+}
+
+.headerLogo img{
+    background-color: orange;
+}
+
+.headerLogo p{
+    padding-left: 0.5em;
+}
